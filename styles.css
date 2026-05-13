@@ -4,15 +4,19 @@ body {
     margin: 0;
 }
 
-header  /* Add other classes */ {
+header, .hero  /* Add other classes */ {
     padding: 16px 256px;
+}
+
+header, .hero {
+    background-color: #1F2937;
+    color: white;
 }
 
 header  {
     display: flex;
     justify-content: space-between;
     align-self: center;
-    background-color: #1F2937;
     color: #F9FAF8;
 
 
@@ -20,7 +24,6 @@ header  {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 header > .links {
@@ -28,4 +31,9 @@ header > .links {
     justify-content: center;
     align-self: center;
     gap: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
 }

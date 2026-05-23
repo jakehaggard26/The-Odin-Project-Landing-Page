@@ -1,0 +1,143 @@
+body {
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 128px;
+    height: 48px;
+}
+
+header, .hero  /* Add other classes */ {
+    padding: 16px 256px;
+}
+
+header, .hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    color: #F9FAF8;
+
+
+}
+
+.hero > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+
+header img {
+    width: 128px;
+    height: 128px;
+}
+
+header > .hero-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    gap: 36px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.links
+{
+    padding: 0px 256px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.box > a > img {
+    width: 128px;
+    height: 128px;
+    border-radius: 15%;
+    border: 2px solid #3882F6;
+}
+
+.box > a > :hover {
+    opacity: 60%;
+}
+
+header > .links {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content > .quote {
+    background-color: #E5E7EB;
+    padding: 64px 256px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.credit {
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-to-action {
+
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 256px;
+    margin: 32px 256px;
+    border-radius: 5px;
+    width: 800px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 256px;
+}
